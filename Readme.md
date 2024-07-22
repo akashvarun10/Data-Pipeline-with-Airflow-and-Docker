@@ -9,12 +9,18 @@
 This project sets up a data pipeline using Docker containers for PostgreSQL, PGAdmin, and Airflow. The pipeline fetches Amazon books data, processes it, and stores it in a PostgreSQL database.
 
 ## Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=Apache-Airflow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+
 
 - Docker
 - Docker Compose
 - Airflow
 - PGAdmin
 - PostgreSQL
+- Python
 
 
 
@@ -151,4 +157,6 @@ This setup allows for automated workflows managed by Airflow, executed within Do
 - Ensure all Docker containers for PostgreSQL, PGAdmin, and Airflow are running and networked correctly.
 - For production, consider deploying on cloud services like AWS EC2.
 - Extend the project by adding features such as book descriptions and reviews.
+
+
 
