@@ -1,4 +1,5 @@
 ### Airflow ETL Pipeline Setup with Docker Compose
+#### Data Engineering Pipeline using Apache Airflow
 
 
 #### Pipeline Design
@@ -112,7 +113,8 @@ These steps ensure seamless communication between PostgreSQL, PGAdmin, and Airfl
    
    ![Pipeline Design](assets/Airflow_WEBUI.png)
 
-##### Once the DAG is verified, you don't need to manage the Python file separately; simply save the DAG configuration in Airflow, and it will be properly handled.
+##### Once the DAG is verified, you don't need to manage the Python file separately; simply save the DAG configuration in Airflow, and it will be properly handled. This pipeline fetches Amazon books data every 24 hours and populates the PostgreSQL database.
+
 
 
 ### 6. Check Data in PGAdmin
